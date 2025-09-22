@@ -1,0 +1,132 @@
+body{
+    background-color: #dedbd2;
+}
+
+.header_footer{
+    background-color: #b0c4b1;
+    margin: 10px;
+    padding: 0.1px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #4a5759;
+    text-align: center;
+    border-radius: 5px;
+}
+nav{
+    margin: 10px;
+    padding: 10px;
+    background-color: #b0c4b1;
+    border-radius: 5px;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 1px;
+}
+
+nav ul li{
+    float: left;
+    margin-right: 0.5em; 
+    margin-left: 0.5em;
+}
+
+nav ul li a{
+    display: block;
+    padding: 0.25em 1em;
+    text-decoration: none;
+    color: #4a5759;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    transition: all 0.4s ease;
+}
+
+nav ul li a:hover{
+    color: white;
+    background-color: #4a5759;
+}
+
+main{
+    background-color: #cfaebb;
+    border-radius: 5px;
+    margin: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 1px;
+    color:#343939;
+    width: 85%;
+}
+
+h3{
+    margin-left: 5%;
+}
+
+p {
+    margin-left: 5%;
+}
+
+h4{
+    margin-left: 10%;
+}
+
+h5{
+    margin-left: 10%;
+}
+
+.side{
+    display: flex;
+}
+
+aside{
+    background-color: #50665e;
+    border-radius: 5px;
+    width: 15%;
+    margin: 10px;
+    padding: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(241, 231, 219);
+    transition: all 0.4s ease;
+}
+
+aside ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+aside ul li a{
+    display: block;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+aside:hover{
+    color: white;
+    background-color: #b0c4b1;
+    color: #4a5759;
+}
+
+.rules{
+    font-size: small;
+    margin-left: 20%;
+    list-style-type: disc;
+}
+
+form{
+    margin-left: 5%;
+}
+
+h2{
+    margin-left: 5%;
+}
+
+.textbox{
+    width:150px;
+    transition: width 0.4s;
+}
+
+.textbox:focus{
+    width:300px;
+}
